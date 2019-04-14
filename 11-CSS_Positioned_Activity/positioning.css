@@ -1,0 +1,42 @@
+body {
+ font-size: 24px;
+ color: black;
+}
+
+p {
+    font-size: 18;
+}
+
+#fixed {
+    position: fixed;
+    text-align: center;
+    margin: 0;
+    margin-left: -8;
+    margin-top: -8;
+    padding: 40;
+    background: #eee;
+}
+
+#relative{
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding: 20;
+    height: 200px;
+    background: #eee; 
+}
+
+#absolute{
+    position: absolute;
+    text-align: center;
+    right: -10px;
+    bottom: 0px;
+    padding: 20px;
+    background: #999;
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
